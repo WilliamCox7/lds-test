@@ -399,8 +399,6 @@ function bumpButtonsDown() {
   navSection.style.marginBottom = "25px";
 }
 
-
-
 function moveSearchToRight() {
   let PFsearchIcon = document.getElementById("PFsearchIcon");
   PFsearchIcon.classList.add("search-move-right");
@@ -430,8 +428,6 @@ function createOverlay() {
   }
   return overlay;
 }
-
-
 
 function addTileMenu() {
   let tileMenu = document.createElement("DIV");
